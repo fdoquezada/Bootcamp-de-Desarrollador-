@@ -16,14 +16,18 @@ body {
    }
   
    ul {
+    text-align: center;
       list-style: none;
-          
+         
    }
    
   li {
-      list-style: none;
-      padding: 0;
+    
+    float: ce;      
+    list-style: none;
+      padding: 10px;
       border: 0;
+
   
   }
   
@@ -31,29 +35,8 @@ body {
       width: 90%;
       margin: auto;
   }
-     .rec-main  {
-      font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100px;
-    padding: 20px 0;
-  }
-  
-  .rec-main  ul {
-      display: flex;
-  }
-  
-  .rec-main  ul li {
-      padding: 10px;
-  
-  }
-  .rec-main  ul li {
-      display: flex;
-   
-  }
-  
-  .foto {
+
+  .imagen {
       width: 100px;
       padding: 50px;
   }
