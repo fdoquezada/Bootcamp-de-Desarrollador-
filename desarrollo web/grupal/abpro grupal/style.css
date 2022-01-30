@@ -57,20 +57,5 @@ body {
       width: 100px;
       padding: 50px;
   }
-
-  form {
-      width: 450px;
-      margin: auto;
-      background-color: rgba(0,0,0, 4);
-      padding: 10px 20px 
-      margin-top: 20px;   
-      border-radius: 7px;
-    }
-
-    h2 {
-        color: #FFF;
-        text-align: center;
-        margin: 0;
-        font-size: 30px;
-        
-    }
+  
+      }   
