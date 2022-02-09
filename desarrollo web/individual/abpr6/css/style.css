@@ -1,0 +1,9 @@
+body{ 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehaZnCn64HYfNd80jX_RZarWCp3JV0uqgzQ&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(212, 109, 12);
+    text-align: center;
+    margin-top:10%;
+    font-family: 'Times New Roman', Times, serif;
+  }
