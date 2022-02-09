@@ -15,7 +15,7 @@ function countTimer() {
   const horasCalc = Math.floor(totalSeconds / 3600) % 24;
   const minutosCalc = Math.floor(totalSeconds / 60) % 60;
   const segundossCalc = Math.floor(totalSeconds % 60);
-
+  
   dias.innerHTML = diasCalc;
   horas.innerHTML = horasCalc;
   minutos.innerHTML = minutosCalc;
@@ -24,3 +24,4 @@ function countTimer() {
 countTimer();
 
 setInterval(countTimer, 1000);
+

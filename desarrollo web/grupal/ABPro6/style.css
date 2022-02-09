@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+div h1{
+  text-align: center;
+}
+
+#inicio{
+background-color: rgba(30, 39, 46,1.0);
+color: #fff;
+margin-bottom: 10px;
+margin-top:10px;
+padding: 40px; 
+margin:10px; 
+text-align: center;
+
+}
+
+#descripcion{
+
+margin-bottom: 10px;
+margin-top:10px;
+padding: 10px; 
+margin:10px; 
+text-align: justify;
+border: 2px solid rgba(30, 39, 46,1.0);
+
+}
+
+#tit1{
+  background-color: rgba(30, 39, 46,1.0);
+  margin-bottom: 10px;
+  margin-top:10px;
+  padding: 50px; 
+  margin:10px; 
+
+}
+
+#form-contact{
+  color: #fff;
+  text-align: center;
+}
+
+.bg-black_1{
+  background-color: rgba(30, 39, 46,1.0);
+}
+
+nav{
+  margin: 10px;
+}
+
+#form-contact{
+  color: #fff;
+  text-align: center;
+}
+
+#form-contact:hover {
+   color: rgba(30, 39, 46,1.0);
+   background-color:  #fff;
+}
+
+
+.galeria{
+    font-family: 'Roboto', sans-serif;
+
+}
+.galeria h1{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+}
+
+
+
+.contenedor-imagenes{
+    display: flex;
+    width: 75%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    
+}
+
+.contenedor-imagenes .imagen{
+    width: 32%;
+    position: relative;
+    height: cover;
+    margin-bottom: 10px;
+    border: 2px solid rgba(30, 39, 46,1.0);
+    border-radius: 5px;
+}
+
+.imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+section { 
+  /*text-align:justify; */
+  background-color: rgba(0, 0, 0, 0.205);
+  margin: 10px;
+  }
+
+section h2{
+  padding-top: 10px;
+  text-align: center;
+}
+
+section p{
+  line-height: 150%;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:justify;
+}
+
+/*
+p::first-letter {
+  font-size: xx-large;}*/
+  
+
+footer {
+  background-color: rgba(30, 39, 46,1.0);
+  color:#fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -20%;
+  font-size: x-small;
+
+}
+
+
+/*
+@media only screen and (max-width: 400px) {
+ 
+  nav {
+    float: left;
+    width: 30%;
+    text-align: left;
+  }
+    nav a {
+      background-color: #e5e5e5;
+      padding: 8px;
+      margin-top: 7px;
+      display: block;
+      width: 100%;
+      color: black;
+    }
+}
+ .galeria {
+   width: 70%;
+   float: right;
+ }
+  
+  
+}
+*/

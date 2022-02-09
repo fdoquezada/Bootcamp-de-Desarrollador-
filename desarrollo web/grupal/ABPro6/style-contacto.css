@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+
+
+
+#nav-1{
+  color: #fff
+}
+
+.navbar{
+  margin:10px;
+}
+
+#form-contact{
+  color: #fff;
+  text-align: center;
+}
+
+#form-contact:hover {
+   color: rgba(30, 39, 46,1.0);
+   background-color:  #fff;
+}
+
+.bg-black_1{
+  background-color: rgba(30, 39, 46,1.0);
+}
+
+header{
+  text-align: center;
+  color: rgba(30, 39, 46,1.0);
+}
+
+.form-1 {
+  width: 100%;
+}
+.mb-3 {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.nav-item{
+  color:white;
+}
+
+.form-label {
+  padding-right: 3%;
+  
+}
+
+#btn-1 {
+  width: 25%;
+  margin-left: 38%;
+  
+  
+}
+
+
+div {
+  text-align: center; 
+  
+  color: #fff;
+  background-color: rgba(30, 39, 46,1.0);
+  
+} 
+
+form {
+  list-style: none;
+}
+
+form {
+    /* centrar el form*/
+margin: 0 auto;
+width: 400px;
+margin-top:1em;
+padding: 1em;
+}
+
+ul {
+    list-style:none;
+    padding:0;
+    margin: 0;
+
+}
+form li + li {
+    margin-top: 1em;
+}
+
+label{
+    /*font-family: 'Roboto', sans-serif;*/
+    display: inline-block;
+    width: 100%;
+    
+    }
+
+#form-message {
+  font-family: 'Roboto', sans-serif; 
+}
+
+#mensaje {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+
+.place::placeholder {
+  /*font-family: 'Roboto', sans-serif;*/
+  color: rgba(30, 39, 46,1.0);
+  font-size: 10px
+}
+
+footer div {
+  background-color: rgba(30, 39, 46,1.0);
+  color:#fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: -20%;
+  font-size: x-small;
+
+}
+
