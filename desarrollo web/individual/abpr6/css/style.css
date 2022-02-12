@@ -1,9 +1,37 @@
-body{ 
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRehaZnCn64HYfNd80jX_RZarWCp3JV0uqgzQ&usqp=CAU");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: rgb(212, 109, 12);
-    text-align: center;
-    margin-top:10%;
-    font-family: 'Times New Roman', Times, serif;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+body {
+background-image: url("/img/descarga.jpg");
+background-repeat: repeat;
+height: 600px;
+text-align: center;
+margin-top: 5%;
+
+}
+
+button{
+    border-radius: 10px;
+    font-family:'Short Stack', cursive;
+    font-size: small;
+}
+
+#mapaCol{
+    padding:1%;
+    
+    
+}
+
+#videoCol{
+    padding:1%;
+    
+
+}
+
+
+#fotoCol{
+
+    margin-top: 5%;
+}
+#titulo1{
+    font-family:'Short Stack', cursive;
+    color: rgb(165, 42, 42);
+}
