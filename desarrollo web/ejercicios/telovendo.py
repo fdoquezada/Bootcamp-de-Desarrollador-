@@ -22,23 +22,72 @@ Deportes en General.
 ● El usuario debe ingresar por consola sus características (lugar de origen, edad y afinidad por los
 deportes).
 ● Programa un mensaje que indique el número de cuestionarios a responder y cuáles son."""
-bienvenida = ("bienbenido a la seccion de encuestas, por favor elija una de las siguentes opciones: ")
+bienvenida = ("***** bienvenido a la seccion de encuestas, por favor elija una de las siguientes opciones:  *****")
 print(bienvenida)
-print("-------------------------------------------------------------------------")
-edad =(input("¿Usted es orininario de latino america?: "))
-if  edad == "si":
-   
-elif  edad == "no":
-   
-    
-else: 
-    say_message("su nacionalifaf no corresponde ")    
-
-edad =int(input("ingrese su edad:"))
-if ( edad > 29 or edad < 18):
-   print("edad no coincide con el rango")
-elif (edad >= 25):  
-    print("puede pasar")
+print("-"*100)
+origen = input("¿es ud originario de america latina?: ")
+caracteres = len(origen)
+tipo = origen.isalnum()
+if tipo == True:
+    if caracteres < 2:
+        print("debe eingresar 2 caractres")
+    elif caracteres > 3:
+        print("binvenido usuario")    
+    else:
+        print ("vuelva a intenatrlo" )    
 else:
-    print ("lo sirnto no corresponde ")    
+    print("error, valor incorrecto")        
+
+while True:
+    try:
+        edad = int(input(" ingrese su edad: "))
+        break
+    except ValueError:
+        print("ingrese solo numeros enteros positivos del 18 al 100")
+        
+afinidad = input("tiene afinidad con los deportes: ")        
+caracteres = len(afinidad)
+tipo = afinidad.isalnum()
+if tipo == True:
+    if caracteres < 2:
+        print("debe eingresar 2 caractres")
+    elif caracteres > 2:
+        print("binvenido usuario")    
+    else:
+        print ("vuelva a intenatrlo" )    
+else:
+    print("error, valor incorrecto")          
+print("-"*100)
+print(f"¡su origen es latinoamerica! : {origen}")
+print(f"¡su edad es!  : {edad}")
+print(f"afinidad con los deportes : {afinidad}")
+print("-"*100)
+
+if  origen.upper() =="SI":
+    print("te corresponde el cuestinario de habitos alimenticios" )
+else:
+    print("este cuestinorio no es para ti")
+   
+if  edad == 18 >= 29:
+   print("te corresponde el cuestinoraio de empleabilididad")
+elif  edad == 30 >= 59:
+   print("te corresponde el cuestinoraio de expecienci laboral")
+elif edad == 60>=100:
+   print("te corresponde el cuestinario de actividades recreativas")
+   
+if  afinidad.upper() =="SI" and edad == 30 or edad < 59:
+    print("te corresponde el cuestionario de atletismo")
+if  origen.upper() =="SI" and edad == 30 or edad < 59:
+    print("te toca responder le cuertinorio natacion")
+      
+elif afinidad.upper() =="No":
+    print("te toca responder le cuertinorio de deportes en general")          
+       
     
+fin =( "*" *42 +"fin del programa" +"*" *42 )      
+print(fin)
+    
+    
+
+
+
