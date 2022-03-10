@@ -57,11 +57,27 @@ class productos:
         valor_total = (valor_neto * self._impuesto)
         print("el producto", nombre, "con sku:", sku, "se agregado a la categoria", categoria, "del proveedor", proveedor,"con un stock", stock, "con un valor neto de", valor_neto, "a un impuesto de", self._impuesto, "que da un total de", valor_total)
 
-producto1 = productos("1","2","3","4","5","6","7")
-print(producto1)
-producto1.ingresar_producto()
+    def menu (self):
+            option=0
+            while option !=3:
+                print("menu de agenda")
+                print("1.-cargar clientes ")
+                print("2.-listar agenda de clientes")
+                print("3.-finalizar ")
+                option= int(input ("Seleccione la opccion deseada"))
+            if option == 1:
+                self.ingresar_producto
+            elif option == 2:
+                self.listar_clientes()
 
-class vendedor:
+
+#producto1 = productos("1","2","3","4","5","6","7")
+
+agenda = productos()
+agenda.menu
+#print(producto1.__dict__)
+
+"""class Vendedor:
     def __init__(self, run, nombre, apellido, seccion, comision):
         self.run = run
         self.nombre = nombre
@@ -70,4 +86,4 @@ class vendedor:
         self.__comision = 0
         
 
-#cliente1 = clientes()
+#cliente1 = clientes()"""

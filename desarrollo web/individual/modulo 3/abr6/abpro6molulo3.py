@@ -10,16 +10,37 @@ en pantalla la variable completa de datos hasta el momento de recibir la instruc
 
 
 
-import time 
 
 
+class usuario():
+    
+def __init__(self,nombre,contrasena,fechanacimiento):
+    
+    self.nombre = nombre
+    self.contarsena = contrasena
+    self.fechanacimiento = fechanacimiento
+    
+    sel
+    
 
+"""usuario =[]
+ 
 def listado():
-    while True:
+     nombre = ("por favor insgre su nombre: ")
+     contrasena = ("por favor Ingrese su Contraseña")
+     edad  =  ("ingresar su edad ") 
+     usuario.append({"name": nombre,"contrasena": contrasena, "edad": edad})
+     return usuario
+     
+
+listado()  
+      
+
+
+
+"""while True:
         print("\nPor favor escriba su nombre: ")
         nombre = input('ingresar un nombre:')
         print("\nPor favor escriba su contraseña: ")
         contraseña = input('ingrese la contreseña')
-        break
-
-listado()        
+        break"""

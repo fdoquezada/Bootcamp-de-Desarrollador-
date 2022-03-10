@@ -32,4 +32,4 @@ class Agenda():
                 self.listar_clientes()
 
 agenda = Agenda()   
-agenda.cargar_clientes
+agenda.menu
