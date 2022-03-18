@@ -10,7 +10,6 @@
 #● Piense en nuevos atributos y acciones que pueden realizar los objetos.
 #Piensen en una forma de graficar las relaciones entre las diferentes clases, puede ser un diagrama o
 #gráfica. Desarrollen el ejercicio de forma intuitiva
-from multiprocessing.connection import Client
 
 
 print("*"*25,"usuarios a presentar","*"*25)
