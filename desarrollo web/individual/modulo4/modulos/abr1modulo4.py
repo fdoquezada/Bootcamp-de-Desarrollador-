@@ -10,45 +10,50 @@
 #● Piense en nuevos atributos y acciones que pueden realizar los objetos.
 #Piensen en una forma de graficar las relaciones entre las diferentes clases, puede ser un diagrama o
 #gráfica. Desarrollen el ejercicio de forma intuitiva
+from multiprocessing.connection import Client
+
+
+print("*"*25,"usuarios a presentar","*"*25)
 class Cliente:
+    contador = 0
     def __init__(self, nombre, apellido, password, edad):
+        Cliente.contador +=1
+        self.cliente = Cliente.contador
         self.nombre = nombre
         self.apellido = apellido
         self.password = password
         self.edad = edad
+
+        
+    def __str__ (self):
+        return str (self.cliente) + " " + self.nombre + " " + self.apellido + " " + self.password + " " + self.edad
     
-    #def SaberEdad(self):
-     #   if self.edad<18:
-      #      print("eres mayor de edad")
-       # else:
-        #    print("eres menor de dad")    
-        
-        
-
-
-
-
-cliente_1 = Cliente( 'juan', 'quinteros', '1245', '25')
-cliente_2 = Cliente('pedro', 'rojas', '1254', '35')
-cliente_3 = Cliente('juan', 'quinteros', '1245', '25')        
+    def impresion_cliente(self):   
+        print('\nBuenos dias ', self.nombre, self.apellido,' Su edad actual es:  ',self.edad, '\n')  
+    
    
-cliente_1 = Cliente()
-#cliente_1.SaberEdad 
-   
-       
-        
-"""def menu (self):
-            option=0
-        while option !=3:
-            print("menu de agenda")
-            print("1.-cargar clientes ")
-            print("2.-listar agenda de clientes")
-            print("3.-finalizar ")
-            option= int(input ("Seleccione la opccion deseada"))
-            if option == 1:
-                self.cargar_clientes
-            elif option == 2:
-                self.listar_clientes()
 
-agenda = Agenda()   
-agenda.menu"""
+ 
+ 
+usuario1 = Cliente("Fernando","Quezada","12345","35" )
+usuario2 = Cliente("juan","Lopez","854545","35" )
+usuario3 = Cliente("Andres","Ordones","12345","35" )
+usuario4 = Cliente( 'juan', 'quinteros', '1245', '25')
+usuario5 = Cliente('pedro', 'rojas', '1254', '35')
+usuario6 = Cliente('juan', 'quinteros', '1245', '25')
+
+usuario1.impresion_cliente()
+usuario2.impresion_cliente()
+
+print(usuario4)    
+print(usuario5)
+print(usuario1.__dict__)
+
+
+
+
+
+
+
+     
+   

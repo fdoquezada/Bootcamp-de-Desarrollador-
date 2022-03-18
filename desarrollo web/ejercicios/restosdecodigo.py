@@ -8,16 +8,16 @@ else:
     
     
     
-    def es_numerico(cadena):#validador si es numero ingredado es valido 
-         try:
-         int(cadena)
-         return True
-     except ValueError:
-         return False   
-if es_numerico(edad):
-    print("ha digitado una edad valida")
-else:
-    print("el  valor digitado no corresponde a numero vuelva")  
+def es_numerico(cadena):#validador si es numero ingredado es valido     
+    try:
+        int(cadena)
+        return True
+    except ValueError:
+            return False   
+    if es_numerico(edad):
+            print("ha digitado una edad valida")
+    else:
+            print("el  valor digitado no corresponde a numero vuelva")  
     
     
     print("Total Regueton Materiales: "+str(origen))
