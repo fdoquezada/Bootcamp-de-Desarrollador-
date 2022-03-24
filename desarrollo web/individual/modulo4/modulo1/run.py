@@ -9,9 +9,10 @@ perfiles más particulares.
 Aplique e integre el orden de resolución de métodos.
 Qué utilidad tiene el polimorfismo en la definición de métodos heredados.
 Indique en qué momento es conveniente utilizar las funciones isinstance) y issubclass()."""
-import clientes 
+from clientes import Usuarios 
 
-clientes = {'id': 01,'nombre':'fernando' ,'apellido': 'quezada',
+cliente = {
+    1: clientes.Usuarios'id': 01,'nombre':'fernando' ,'apellido': 'quezada'),
             'id': 02,'nombre':'Fernando','Quezada','12345','35', 
             'id': 03,'nombre':'juan","Lopez","854545","35" 
             'id': 04,'nombre':'Andres","Ordones","12345","35" 
